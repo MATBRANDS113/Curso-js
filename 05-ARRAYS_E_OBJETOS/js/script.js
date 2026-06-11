@@ -114,3 +114,15 @@ const users = ['Matheus', 'João', 'Ana', 'Pedro'];
 for (let i = 0; i < users.length; i++) {
     console.log(`Listando o usuário ${users[i]}`);
 }
+
+// 11 - Push e pop
+
+const array = ["a", "b", "c"]
+array.push("d")
+console.log(array)
+array.pop()
+console.log(array)
+array.pop()
+console.log(array)
+array.push("z", "a")
+console.log(array)
