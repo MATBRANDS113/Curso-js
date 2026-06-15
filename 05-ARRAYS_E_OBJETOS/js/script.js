@@ -126,3 +126,46 @@ array.pop()
 console.log(array)
 array.push("z", "a")
 console.log(array)
+
+// TESTE
+
+/*
+
+const amigos = [
+    {nome: "Matheus", idade: 15, cidade: "Candelária"},
+    {nome: "Joaquim", idade: 16, cidade: "Vera Cruz"},
+    {nome: "Marina", idade: 19, cidade: "Santa Cruz"}
+]
+amigos.forEach(function(amigo) {
+    console.log(amigo.nome + " tem " + amigo.idade + " anos e mora em " + amigo.cidade)
+});
+
+const maioresDeIdade = amigos.filter(function(amigo){
+    return amigo.idade > 18
+})
+console.log(maioresDeIdade)
+
+const nomes = amigos.map(function(amigo){
+    return amigo.nome
+})
+console.log(nomes)
+
+const amigoSantaCruz = amigos.find(function(amigo){
+    return amigo.cidade === "Santa Cruz"
+})
+console.log(amigoSantaCruz)
+
+
+*/
+
+// 12 - Shif and Unshift
+
+const letters = ["a", "b", "c"]
+
+const letter = letters.shift()
+
+console.log(letter)
+
+letters.unshift("d")
+
+console.log(letters)
